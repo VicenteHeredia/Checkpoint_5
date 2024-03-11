@@ -32,7 +32,8 @@ name = 'Henry'
 list_name = 'Jessica', 'Paul', 'George', 'Henry', 'Adán'
 
 if name in list_name:
-    print(f'{name} is on de list')
-
+    print(f'{name} is on the list')
+else:
+    print(f'The name not is on the list')
 
 
